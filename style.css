@@ -1,0 +1,138 @@
+:root {
+    --color1: #FFB534;
+    --color2: #FBF6EE;
+    --color3: #C1F2B0;
+    --color4: #65B741;
+    --color5: #3D3D3D;
+    --color6: #80e156;
+    --gray-strong: #3D3D3D;
+    --gray-softer: #7C7C7C;
+    /*temperatures*/
+    --cold-strong: #1b45ae;
+    --cold-softer: #3469ef;
+    --hot-strong: #e1561b;
+    --hot-softer: #ef9e34;
+    --mild-strong: #147629;
+    --mild-softer: #34d54f;
+    
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--color2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    padding: 3rem;
+}
+
+.title {
+    background-color: var(--color1);
+    padding: 1rem;
+    height: 5rem;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 0.5rem;
+}
+
+main {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.container-input {
+    background-color: var(--color3);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+input[type="text"] {
+    padding: 1rem;
+    border-radius: 0.5rem;
+    border: none;
+    max-width: 16rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    width: 30rem;
+}
+
+button {
+    background-color: var(--color1);
+    padding: 1rem;
+    border-radius: 0.5rem;
+    border: none;
+    color: var(--color5);
+    width: 16rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: var(--color4);
+    color : var(--color2);
+}
+
+.container-result {
+    background-color: var(--gray-strong);
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+
+.result {
+    background-color: var(--gray-softer);
+    margin-bottom: 1rem;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.5rem;
+}
+
+h2 {
+    text-align: center;
+}
+
+.cold-strong {
+    background-color: var(--cold-strong);
+}
+
+.cold-softer {
+    background-color: var(--cold-softer);
+}
+
+.hot-strong {
+    background-color: var(--hot-strong);
+}
+
+.hot-softer {
+    background-color: var(--hot-softer);
+}
+
+.mild-strong {
+    background-color: var(--mild-strong);
+}
+
+.mild-softer {
+    background-color: var(--mild-softer);
+}
