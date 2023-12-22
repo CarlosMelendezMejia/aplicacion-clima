@@ -7,4 +7,4 @@ locación solicitada. Ademas de una validación para evitar que se ingresen loca
 ## Autores
 
 - Ejercicio planteado por: [@sergiecode](https://www.github.com/sergiecode)
-- Ejercicio realizado por: [@carlosmelendezmeja](https://www.github.com/carlosmelendezmejia)
+- Ejercicio realizado por: [@carlosmelendezmejia](https://www.github.com/carlosmelendezmejia)

@@ -32,7 +32,7 @@ body {
     align-items: center;
     justify-content: center;
     gap: 2rem;
-    padding: 3rem;
+    padding: 0.1rem;
 }
 
 .title {
@@ -61,12 +61,13 @@ main {
     justify-content: center;
     align-items: center;
     gap: 1rem;
-    padding: 2rem;
+    padding: 2rem 0;
     border-radius: 1rem;
+    width: auto;
 }
 
 input[type="text"] {
-    padding: 1rem;
+    padding: 0.7rem;
     border-radius: 0.5rem;
     border: none;
     max-width: 16rem;
@@ -94,7 +95,7 @@ button:hover {
 
 .container-result {
     background-color: var(--gray-strong);
-    padding: 2rem;
+    padding: 1rem;
     border-radius: 1rem;
 }
 
